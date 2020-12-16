@@ -1,0 +1,5 @@
+--- #Aqui temos configuradas algumas opções para executar com o comando cucumber
+default: -p html -p bdd --publish-quiet
+html: --format html --out=report/report.html #Esse comando sera executado por padrao quando executarmos o comando cucumber
+dot: --format progress
+bdd: --format pretty
